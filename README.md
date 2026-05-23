@@ -1,38 +1,39 @@
 # COVID-19 India: Comprehensive Data Analysis & Trends
 
-This project provides an in-depth, data-driven analysis of the COVID-19 pandemic's impact across India. Using a variety of data sources and advanced visualization libraries, this notebook tracks the spread, mortality, and recovery trends of the virus.
-
-## Project Overview
-The main focus of this notebook is to analyze the spread trend of COVID-19 in India, starting from the first reported case in Kerala on January 30, 2020. It includes:
-- **Historical Context**: A detailed timeline of the virus's arrival and the subsequent national lockdown.
-- **Symptom Analysis**: Visualizing the most common symptoms (Fever, Dry Cough, Fatigue, etc.) based on global data.
-- **Interactive Geospatial Mapping**: Using **Folium** and **Plotly** to create heatmaps and cluster maps of infected regions.
-- **Time-Series Forecasting**: Utilizing **FBProphet** to predict future trends and peaks.
-- **Real-time Data Scraping**: Extracting the latest statistics from official health ministry websites (MoHFW).
-
-## Visualizations & Insights
-The notebook features high-quality, interactive graphs including:
-- **Symptom Distribution**: Bar charts showing the prevalence of various COVID-19 symptoms.
-- **State-wise Case Tracking**: Comprehensive tables and maps showing confirmed, active, recovered, and death cases by state.
-- **Testing Efficiency**: Analysis of ICMR testing data and positive-to-test ratios.
-- **Growth Curves**: Logarithmic and linear plots of case escalation over time.
-
-## Tech Stack
-- **Language**: Python 3
-- **Analysis**: Pandas, NumPy
-- **Visualization**: Plotly Express, Plotly Graph Objects, Folium, Seaborn, Matplotlib, Altair
-- **Prediction**: FBProphet
-- **Scraping**: BeautifulSoup, Requests
-
-## Author Note
-**This project was completely done by me.** It represents a rigorous effort to synthesize complex epidemiological data into actionable visual insights.
-
-## How to View
-GitHub natively renders the `.ipynb` file, allowing you to **scroll through both the code and the interactive outputs** directly in your browser.
-
-## Run in Google Colab
-You can run the interactive version of this notebook directly in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oldregime/covid-19-india-analysis/blob/master/covid-19-india-analysis.ipynb)
 
+This project provides an in-depth, data-driven analysis of the COVID-19 pandemic's impact across India. Using a variety of data sources and advanced visualization libraries, this notebook tracks the spread, mortality, and recovery trends of the virus.
+
+## 🚀 Key Features
+- **Interactive Geospatial Visualizations**: Maps generated with `Folium` and `Plotly` to visualize regional impact.
+- **Advanced Forecasting**: Utilizing the `Prophet` library for time-series prediction of confirmed cases and deaths.
+- **Symptom Profiling**: Statistical breakdown of common COVID-19 symptoms.
+- **Real-time Data Integration**: Scrapes current statistics from official health ministry sources.
+
+## 📊 Visualizations Included
+*(The notebook contains high-resolution interactive charts like these)*
+- **Spread Trends**: Logarithmic growth curves and area plots showing the escalation over time.
+- **Regional Heatmaps**: Interactive maps highlighting hotspots and clusters across Indian states.
+- **Demographic Insights**: Gender and age-wise distribution of cases, recoveries, and mortality.
+
+## 🛠️ Technical Fixes for Colab
+I have updated this notebook to ensure it works perfectly in **Google Colab** (Python 3.12+):
+- **Library Updates**: Migrated from the deprecated `fbprophet` to the modern `prophet` package.
+- **Dependency Management**: Added automated `pip install` commands for `pycountry` and `prophet`.
+- **Environment Awareness**: Added checks to handle data paths gracefully outside of Kaggle.
+
+## 📋 Tech Stack
+- **Languages**: Python 3
+- **Visualization**: Plotly, Folium, Seaborn, Matplotlib, Altair
+- **Data Science**: Pandas, NumPy, Scipy
+- **Prediction**: Prophet (Meta Open Source)
+- **Scraping**: BeautifulSoup4, Requests
+
+## 🧑‍💻 Author Note
+**This project was completely done by me.** It represents a rigorous effort to synthesize complex epidemiological data into a professional analysis suite.
+
 ---
-*Data Source: MoHFW, ICMR, and Kaggle COVID-19 Datasets.*
+### How to Run
+1. Click the **Open in Colab** badge at the top.
+2. Ensure you have the required datasets available in the `/kaggle/input` path (or update the paths in the data loading section).
+3. Run all cells to see the interactive analysis.
