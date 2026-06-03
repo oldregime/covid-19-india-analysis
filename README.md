@@ -22,6 +22,21 @@ This project provides an in-depth, data-driven analysis of the COVID-19 pandemic
 ### 🔮 3. Predictive Case Forecasting (Meta Prophet Model)
 ![Prophet Forecast](assets/prophet_forecast.png)
 
+### 📊 4. Daily Testing Volume vs. Confirmed Positive Case Rate
+![Daily Tests vs Cases](assets/daily_tests_vs_cases.png)
+
+### 🧪 5. Diagnostic Test Positivity Rate (TPR) Trends
+![TPR Trends](assets/positivity_rate_trends.png)
+
+### 📉 6. Correlation Analysis: Case Fatality Rate vs. Recovery Rate
+![CFR vs Recovery Correlation](assets/cfr_vs_recovery_correlation.png)
+
+### 👥 7. Demographic Case Distribution by Age Cohort
+![Age Group Distribution](assets/age_group_distribution.png)
+
+### 🌊 8. Epidemic Curve: Transmission Velocity & Wave Peaks
+![Growth Acceleration](assets/growth_acceleration.png)
+
 ## 🛠️ Technical Fixes for Colab
 I have updated this notebook to ensure it works perfectly in **Google Colab** (Python 3.12+):
 - **Library Updates**: Migrated from the deprecated `fbprophet` to the modern `prophet` package.
