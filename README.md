@@ -10,11 +10,17 @@ This project provides an in-depth, data-driven analysis of the COVID-19 pandemic
 - **Symptom Profiling**: Statistical breakdown of common COVID-19 symptoms.
 - **Real-time Data Integration**: Scrapes current statistics from official health ministry sources.
 
-## 📊 Visualizations Included
-*(The notebook contains high-resolution interactive charts like these)*
-- **Spread Trends**: Logarithmic growth curves and area plots showing the escalation over time.
-- **Regional Heatmaps**: Interactive maps highlighting hotspots and clusters across Indian states.
-- **Demographic Insights**: Gender and age-wise distribution of cases, recoveries, and mortality.
+## 📊 Visualization & Dashboard Showcase
+*(Note: Interactive HTML maps and Plotly figures do not render on GitHub's static viewer. High-resolution static PNG renders of the key pipelines are embedded below for instant preview)*
+
+### 📈 1. Cumulative Case Growth & Recovery Timeline
+![Spread Trend](assets/cases_growth_trend.png)
+
+### 🗺️ 2. Top 10 Most Affected States
+![Top States](assets/top_states_impact.png)
+
+### 🔮 3. Predictive Case Forecasting (Meta Prophet Model)
+![Prophet Forecast](assets/prophet_forecast.png)
 
 ## 🛠️ Technical Fixes for Colab
 I have updated this notebook to ensure it works perfectly in **Google Colab** (Python 3.12+):
